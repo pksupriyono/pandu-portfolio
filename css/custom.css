@@ -12,6 +12,20 @@
   margin-left: auto;
 }
 
+#fluidabout{
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+#about-text{
+  line-height: 1.8em;
+}
+
 @media (min-width: 768px) {
   .navbar {
     height: 35px;
@@ -76,15 +90,31 @@ hr{
   animation-duration: 2s;
 }
 
-#pic.p1 {
-  background-image: url("http://fillmurray.com/200/300");
+
+html {overflow-y:scroll;}
+
+.list-group .list-group-item:hover{
+  background: #337ab7;
+  cursor: pointer;
+  color: #fff;
 }
-#pic.p2 {
-  background-image: url("http://fillmurray.com/200/200");
+.content{
+  margin: 30px auto;
+  height: 500px;
+  border-radius: 55;
+  box-shadow: 0 2px 1px 0 #dcdcdc,0 -2px 1px 0 #dcdcdc;;
 }
-#pic.p3 {
-  background-image: url("http://fillmurray.com/300/300");
-}
-#pic.p4 {
-  background-image: url("http://fillmurray.com/120/120");
-}
+
+#aboutbody {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  text-align: left;
+  background-color: #fff; }
+
+  ::-webkit-scrollbar {
+  display: none;
+  }

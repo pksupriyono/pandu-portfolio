@@ -7,5 +7,7 @@ $font-size-base:              1.2rem; // Assumes the browser default, typically 
 $dark:          #141719 ;
 $body-bg:                   $dark;
 $body-color:  #fff;
+$light:         #fff;
+$secondary:          #e2e2e2 ;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
