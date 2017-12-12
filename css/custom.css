@@ -1,7 +1,7 @@
 .navbar-brand {
-  font-family: monospace;
+  font-family: Inconsolata;
   font-size: 1.5rem;
-  letter-spacing: 5.7px;
+  letter-spacing: 6.3px;
 }
 
 .container-fluid {
@@ -37,7 +37,7 @@
 }
 
 .welcome-text{
-font-family: monospace;
+font-family: Inconsolata;
 }
 
 #title_intro{
